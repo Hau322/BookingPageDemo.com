@@ -1,0 +1,99 @@
+@charset "UTF-8";
+@import url("styl_Deco.css");
+html{
+    overflow: scroll;
+}
+body{
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #5A482B;
+}
+
+br{
+    letter-spacing: normal;
+}
+a{
+    text-decoration: none;
+    color: #5A482B;
+}
+
+a:hover {
+    color: #6289C6
+}
+/******* head */
+#header{
+    position: relative;
+    width: 787px;
+    margin: 0px auto;
+    justify-content: center;
+}
+
+#pr { 
+    position: abso lute;
+    width: 787px;
+    left: 0;
+    top: 0;
+}
+#header h1{
+    margin: 0;
+    padding-top: 25px;
+}
+#contact{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+/* ************* menu */
+#menu{
+    width: 787px;
+    margin: auto;
+}
+#menu ul {
+    padding: 0;
+    text-align: center;
+}
+#menu li{
+    float: left;
+    width: 129px;
+    list-style: none;
+}
+/************icathch */
+#icatch{
+    width: 782px;
+    margin: 0 auto;
+}
+/* ***********contents */
+#contents{
+    width: 787px;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+.left{
+    float: left;
+    
+}
+#pageTop{
+    clear : both;
+    padding: 20px 0;
+    text-align: right;
+
+}
+/* ****** main */
+#main{
+    padding-right: 150px;
+    float: right;
+    width: 547px;
+}
+#side{
+    padding-left: 300px;
+    float: left;
+    width: 200px;
+}
+
+/* ****** footer */
+#footer{
+    clear: both;
+    padding: 5px 0;
+    text-align: center;
+}

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JIKKYO PENSION</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="heya.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<body>
+    <!--bao toan bộ -->
+    <div class="box">
+    <!--logo và số điện thoại-->
+    <div class="head">
+        <div class="left">
+        <h3>部活・サークル等のグループ利用に最適！アットホームなペンション！！</h3><br>
+        <img src="/gakk/logo.png">
+        </div>
+        <div class="right">
+        <h2>
+            ご予約/ お聞い合わせ <p>
+            <i class='bx bx-phone'>0120-000-000</i>
+        </h2>
+        </div>
+    </div>
+    <!--bảng ba lựa chọn-->
+    <nav class="menu navbar navbar-expand">
+        <ul class="navbar-nav  ">
+            <li class="nav-item  btn btn-outline-danger "><span ><a>ホーム</a></span></li>
+            <li class="nav-item  btn btn-outline-danger"><span><a>お部屋紹介</a></span></li>
+            <li class="nav-item  btn btn-outline-danger"><span><a>ご予約</a></span></li>
+        </ul>
+    </nav>
+    <!--phan lề bên trái-->
+    <div class="sign border border-dark ">
+       <h3 ><strong>ご予約</strong></h3><br>
+       <ul >
+        <li class="h-25"><a>宿泊日入力</a></li>
+       </ul>
+       <br>
+       <p>
+        <strong>お部屋紹介 </strong>
+        </p>
+        <ul>
+            <li> <a href="https://www.w3schools.com/php/phptryit.asp?filename=tryphp_syntax">和室</a></li>
+            <li><a href="https://www.w3schools.com/php/phptryit.asp?filename=tryphp_syntax">洋室</a></li>
+            <li><a href="https://www.w3schools.com/php/phptryit.asp?filename=tryphp_syntax">和洋室</a></li>
+        </ul>
+        
+    </div>
+    <!--bảng bên phải-->
+    <div class="box2 w-75">
+        <h2 class="border border-dark rounded">お部屋のご紹介</h2>
+        <h3>自慢のお部屋をご紹介</h3>
+        <hr>
+        <p>和室・洋室・和洋室と、ご希望に沿った形でお部屋をお選び頂きます。
+        </p>
+         <table class= "table-bordered" >
+            <thead>
+                <th>お部屋名称/th>
+                <th>お部屋タイプ</th>
+                <th>一泊料金料金<br>(部屋単位)</th>
+                <th colspan="2">お部屋イメージ</th>
+                
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ゆとりの和室</td>
+                    <td>和室</td>
+                    <td>￥9000</td>
+                    <td><img src="/anh2.jpg"></td>
+                    <td class="d-flex justify-content-around" ><button class="btn btn-danger w-50 m-5 "><span>詳細</span></button></td>
+               </tr>
+                <tr>
+                    <td>ゆとりの和室</td>
+                    <td>和室</td>
+                    <td>￥9000</td>
+                    <td><img src="/anh3.png"></td>
+                    <td class="d-flex justify-content-around" ><button class="btn btn-danger w-50 m-5">詳細</button></td>
+                </tr>
+               <tr>
+                    <td>ゆとりの和室</td>
+                    <td>和室</td>
+                    <td>￥9000</td>
+                    <td><img src="/anh4.jpg"></td>
+                    <td class="d-flex justify-content-around"><button class="btn btn-danger w-50 m-5">詳細</button></td>
+               </tr>
+            </tbody>
+         </table>
+         <button class="btn btn-outline-danger "><span class="px-3">  ページのトップ戻る</span></button>
+    </div>
+    
+    <p class="footer">Coppyright c 2016 Jikkyo Pension Coppyright c 2016 Jikkyo Pension All rights Reserved.    </p>
+</div>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./fontawesome-free-6.7.2-web/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+   
+</head>
+<style>
+    @import url("");
+    *{
+        padding:0px;
+        margin:0px;
+        box-sizing: border-box;
+    }
+    html,body{
+        height:100%;
+    }
+    body {
+    padding: 30px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   #box {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+    
+
+    /* vì vị trí trong html bị ngược nên có thể dùng order kết hợp với set container */
+    #main {
+        flex: 1;
+        min-width: 0;
+    }
+    #main table {
+        width: 100%;
+        border-collapse: collapse;
+   }
+    #side {
+            flex: 0 0 220px;
+   }
+   
+    /* #foot{
+        clear: both;
+        text-align: center;
+    }  */
+     /* thay bố cục  */
+
+#header {
+    position: relative;
+}
+
+.contact {
+    position: absolute;
+    top: 195px;
+    right: 0;
+    margin: 0;
+}
+
+
+@media (max-width: 768px) {
+    .header-content {
+        flex-wrap: wrap;
+    }
+
+    .contact {
+        margin: 0;
+    }
+}
+  /* đến đây  */
+     .container {
+     display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    width: 100%;
+    margin: 20px auto;
+}
+    #foot{
+        height:40px;
+        margin-top: 10px;
+        text-align: center;
+
+    }
+    img{
+        margin: 20px 0 ;
+    }
+    ul{
+        list-style: none;
+    }
+    ul li{
+        margin: 10px 0;
+    }
+    a {
+    text-decoration: none;
+    }
+</style>
+<body>
+    <div id="box">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+<header id="header">
+    <p>部活・サークル等のグループ利用に最適！アットホームなペンション！！</p>
+
+    <div class="header-content">
+        <img src="/web/Baid/img/logo.png" alt="Jikkyo Pension">
+
+        <div class="contact">
+            <strong>
+                <span class="bg-primary text-light">
+                    ご予約/お問い合わせ
+                </span>
+            </strong>
+            <p>
+                <i class="fa-solid fa-phone"></i>
+                <span>0120-000-000</span>
+            </p>
+        </div>
+    </div>
+</header>
+    <div id="menu">
+        <nav class="navbar navbar-expand " >
+            <ul class="navbar-nav  mh-auto  d-flex align-items-center " style="height: 40px; width:300px ;">
+                <li class="nav-item ms-1 "><button class="btn btn-outline-primary"><a href="./heyaToppage.html">ホーム</a></button></li>
+                <li class="nav-item ms-1 "><button class="btn btn-outline-primary"><a  href="heyaRoomlist.html">お部屋紹介</a></button></li>
+                <li class="nav-item ms-1 "><button class="btn btn-outline-primary"><a >ご予約</a></button></li>
+            </ul>
+        </nav>
+    </div>
+        
+    <div class="container">
+    <aside id="side">
+        <h2>ご予約</h2>
+        <ul>
+            <li><a href="#">宿泊日入力</a></li>
+        </ul>
+
+        <h2>お部屋ご紹介</h2>
+        <ul>
+            <li><a href="#">和室</a></li>
+            <li><a href="#">洋室</a></li>
+            <li><a href="#">和洋室</a></li>
+        </ul>
+    </aside>
+
+    <main id="main">
+        <h2>Danh sách dữ liệu</h2>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Mã</th>
+                    <th>Tên</th>
+                    <th>Thông tin</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>001</td>
+                    <td>Dữ liệu 1</td>
+                    <td>Nội dung 1</td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>Dữ liệu 2</td>
+                    <td>Nội dung 2</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</div>
+            
+    
+    <footer id="foot" >
+        <div class="back  m-2 float-end">
+                <button class="btn btn-outline-primary"><span >Top</span></button>
+            </div>
+            <br>
+        <div class="m-4">
+        <p class="mx-auto"> Copyright c 2016 Jikkyo Pension All Rights Reserved.</p>
+        </div>
+    </footer>
+</div >
+</html>
